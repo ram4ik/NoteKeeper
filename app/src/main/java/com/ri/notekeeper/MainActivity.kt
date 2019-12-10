@@ -10,10 +10,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        buttonPressed.setOnClickListener() {
-            val originalValue = textDisplayedValue.text.toString().toInt()
-            val newValue = originalValue * 2
-            textDisplayedValue.text = newValue.toString()
-        }
     }
 }
